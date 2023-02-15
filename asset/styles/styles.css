@@ -5,16 +5,16 @@
 }
 
 .header_logo_nav {
-    background-color: bisque;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     flex-direction: row;
+    align-content: center;
 }
 
 nav a {
-    background-color: black;
+    background-color: #000000;
     color: aliceblue;
     border: 2px solid black;
     border-radius: 10%;
@@ -34,19 +34,21 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: bisque;
     padding: 20px;
 
 }
 
 .nav2 a {
     text-decoration: none;
+    font-size: xx-large;
+}
+h3{
+    font-size: xx-large;
 }
 
 .social {
-    display: flex;
-    width: 100px;
-    height: 100px;
-    align-items: center;
-    justify-content: space-between;
+    /* display: flex; */
+}
+.card-group{
+    border-radius: 20px;
 }
