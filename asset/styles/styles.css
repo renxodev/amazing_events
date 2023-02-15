@@ -46,9 +46,19 @@ h3{
     font-size: xx-large;
 }
 
-.social {
-    /* display: flex; */
-}
 .card-group{
     border-radius: 20px;
+}
+
+
+@media (max-width: 750px) {
+	* {
+		font-size: 0.9rem;
+	}
+}
+
+@media (max-width: 480px) {
+	* {
+		font-size: 0.7rem;
+	}
 }
