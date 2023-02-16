@@ -102,3 +102,9 @@ object-fit: cover;
 .border-top{
     position: absolute;
 }
+table, thead, tr, th, tbody, td{
+    border: 2px solid black;
+}
+.rounded-2{
+    border: 2px solid black;
+}
