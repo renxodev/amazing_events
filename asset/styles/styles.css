@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+/* body */
+.container-box {
+    min-height: 100vh;
+
+
+}
+
+/* header */
 .logo {
     width: 150px;
     display: flex;
@@ -20,20 +28,6 @@
     background: #363434;
 }
 
-nav a {
-    background-color: #000000;
-    color: aliceblue;
-    border: 2px solid black;
-    border-radius: 10%;
-    padding: 3px;
-    margin-right: 5px;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    text-decoration: none;
-}
-
-
 .nav2 {
     background: #5c5757;
     color: white;
@@ -41,7 +35,6 @@ nav a {
     align-items: center;
     justify-content: space-evenly;
     padding: 20px;
-
 }
 
 .nav2 a {
@@ -53,58 +46,40 @@ h3 {
     font-size: xx-large;
 }
 
-.search-bar {}
 
-.card-group {
-    block-size: 150px;
+.img-fit {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
 }
 
 
-/* @media (max-width: 750px) {
-	* {
-		font-size: 0.9rem;
-	}
-}
 
-@media (max-width: 480px) {
-	* {
-		font-size: 0.7rem;
-	}
-} */
-.card-group>div {
-
-    margin: 1.0rem;
-    border: 2px solid grey;
-}
-
-.card-img-top{
-    height: 250px;
-
-width: 250px;
-
-object-fit: cover;
-}
-
- {
-    padding: 10px;
-    box-shadow:
-         inset 0 -3em 3em rgba(0,0,0,0.1),
-               /* 0 0  0 2px rgb(255,255,255), */
-               0.3em 0.3em 1em rgba(0,0,0,0.3);
-}
-.btn {
-    padding: 10px;
-    box-shadow:
-         inset 0 -3em 3em rgba(0,0,0,0.1),
-               /* 0 0  0 2px rgb(255,255,255), */
-               0.3em 0.3em 1em rgba(0,0,0,0.3);
-}
-.border-top{
-    position: absolute;
-}
-table, thead, tr, th, tbody, td{
+/* aqui stats table */
+table,
+thead,
+tr,
+th,
+tbody,
+td {
     border: 2px solid black;
 }
-.rounded-2{
+
+.rounded-2 {
     border: 2px solid black;
+}
+
+
+.border-top {
+    border: 2px solid black;
+}
+
+div.category{
+    display: flex;
+    align-items: center;
+}
+
+.tamanioFoto{
+    height: 100px !important ;
+    object-fit: cover  !important;
 }
