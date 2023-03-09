@@ -5,18 +5,18 @@
 }
 
 /* body */
-.container-box {
+/* .container-box {
     min-height: 100vh;
-
-
-}
+} */
 
 /* header */
 .logo {
     width: 150px;
     display: flex;
 }
-
+#category{
+    padding-left: 3px;
+}
 .header_logo_nav {
     display: flex;
     align-items: center;
@@ -82,4 +82,7 @@ div.category{
 .tamanioFoto{
     height: 100px !important ;
     object-fit: cover  !important;
+}
+footer{
+    height: 100%;
 }

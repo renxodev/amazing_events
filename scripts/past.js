@@ -5,7 +5,7 @@ let cards = ``;
 let currentDate = data.currentDate;
 
 for (let one of data.events) {
-  if (one.date >= currentDate) {
+  if (one.date < currentDate) {
     let cardTemplate = `
     <div class="col">
     <div class="card shadow-sm d-flex">
@@ -25,51 +25,3 @@ for (let one of data.events) {
 }
 
 capturedElement.innerHTML = cards;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// function printUpcomingEvents(){
-//  let events = data.events;
-//  let currentDate = data.currentDate;
-//  let eventsUpcoming = [];
-//  console.log(eventsUpcoming);
- 
-//  for (let element of events){
-//    if(element.date > currentDate){
-//     eventsUpcoming.push(
-//         eventsUpcoming(
-//             one.image, 
-//             one.name, 
-//             one.description, 
-//             one.price,
-//         )
-//     );
-//     }
-//    }
-//    let tarjeta = document.getElementById("cardContainerUpcoming");
-//    tarjeta.innerHTML = eventsUpcoming.join("");
-//    }
-
-// printUpcomingEvents();
