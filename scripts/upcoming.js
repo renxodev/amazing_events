@@ -15,6 +15,7 @@ for (let one of data.events) {
         <div class="card-body">
             <h5 class="card-title bg-opacity-70 text-center">${one.name}</h5>
             <p class="card-text text-center">${one.description}</p>
+            <p class="card-text text-center">${one.category}</p>
             <p class="card-price text-center"><small class="text-muted"> Price:${one.price}</small></p>
             <a href="#" class="btn btn-primary shadow-sm d-flex justify-content-center ">VER MÁS</a>
         </div>
